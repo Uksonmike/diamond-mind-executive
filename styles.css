@@ -136,7 +136,7 @@ a{
 #header{
     height: 70vh;
     background-image: linear-gradient(to right, rgba(112, 77, 37, 0.24), rgba(51, 51, 51, 0.8)), 
-    url(/images/bggg.jpg);
+    url(https://raw.githubusercontent.com/Uksonmike/diamond-mind-executive/main/images/bggg.jpg);
     background-size: cover;
     background-position: center;
 }
