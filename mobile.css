@@ -1,0 +1,86 @@
+#nav-bar{
+    padding: .3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    height: 40vh;
+}
+
+#header .header-container .header-text{
+    font-size: 1rem;
+}
+
+#header .header-container h1{
+    font-size: 1.5rem;
+}
+
+#header .header-container .header-text a{
+    padding: .3rem 1rem;
+    font-size: 1rem;
+}
+
+#header .header-container .header-image{
+    width: 100px;
+}
+
+.overview .container{
+   
+    padding: 1rem 0;
+}
+
+.what-we-do .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem 0;
+}
+
+
+.what-we-do .container > *:last-child, 
+.what-we-do .container > *:first-child{
+    grid-column: 1 / span 1;
+}
+#leadership .container{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+#leadership .container .image{
+    width: 150px;
+    height: 150px;
+}
+
+
+#about .about-content .page-content{
+    display: block;
+}
+
+#about .content .author-photo,
+#about .content .book-photo{
+    width: 200px;
+}
+
+#about .content .author-grid,
+#about .content .book{
+    display: block;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+footer .container{
+    display: block;
+
+}
+footer .footer-grid{
+    display: block;
+    font-size: 1rem;
+}
+
+footer .updates form .btn{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
