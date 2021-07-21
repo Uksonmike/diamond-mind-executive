@@ -1,0 +1,112 @@
+
+
+#nav-bar .nav-logo{
+    font-size: 1rem;
+    color: var(--secondary);
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+#nav-bar .nav-socials ul{
+    display: flex;
+    font-size: 1.7rem;
+}
+
+#nav-bar .nav-links ul{
+    display: flex;
+    font-size: 1.3rem;
+    
+}
+.current{
+    background-color: rgba(161, 161, 161, 0.274);
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+}
+
+#header{
+    height: 50vh;
+}
+
+#header .header-container{
+    padding: 0 2rem;
+}
+
+#header .header-container .header-text{
+    font-size: 1.3rem;
+}
+
+#header .header-container .header-text a{
+    padding: .4rem 1rem;
+    font-size: 1rem;
+}
+
+#header .header-container .header-image{
+    width: 200px;
+
+}
+#header .header-container .header-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overview .container{
+    font-size: 1rem;
+    line-height: 2;
+    padding: 1rem 1rem;
+}
+
+.what-we-do .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    font-size: 1rem;
+    grid-gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.what-we-do .container > *:last-child, 
+.what-we-do .container > *:first-child{
+    grid-column: 1 / span 2;
+}
+
+#leadership .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem
+}
+
+#leadership .container .image{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+#partner .container{
+    font-size: 1rem;
+}
+
+
+.aside{
+    margin-right: 1rem;
+} 
+
+#about .content .author-photo{
+    width: 300px;
+
+}
+#about .content .author-grid{
+    display: block;
+    font-size: 1rem;
+    line-height: 2;
+}
+#about .content .book{
+    display: block;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+footer .footer-grid{
+    grid-gap: 1rem;
+    font-size: 1rem;
+    line-height: 2;
+}
