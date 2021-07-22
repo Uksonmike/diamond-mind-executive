@@ -407,3 +407,26 @@ footer .updates form .btn{
     color: var(--light);
     font-weight: bold;
 }
+
+/* updates */
+
+.what-we-do .container .card ul li{
+    list-style: outside;
+    list-style-position: inside;
+}
+
+#about .author-bio p a{
+    color: black;
+    font-weight: bolder;
+    color: rgb(50, 50, 117);
+    text-decoration: underline;
+}
+
+.book .book-bio p a{
+    color: black;
+    font-weight: bolder;
+    color: rgb(50, 50, 117);
+    text-decoration: underline;
+}
+
+
